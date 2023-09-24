@@ -130,7 +130,8 @@ public class NewJFrame extends javax.swing.JFrame {
     private void btonPaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btonPaliActionPerformed
 
         /**
-         * Muestran los datos de clase Palindrome
+         * Ejemplo
+         * user: Amo la pacífica paloma
          */
         String word = txtValor1.getText().toLowerCase();
         String clean = new Palindrome().phrases(word);
@@ -139,7 +140,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
 
         lblResul1.setText("\n-Word: " + word);
-        lblResult2.setText("\n-Result: " + clean);
+        lblResult2.setText("\n-Result clean: " + clean);
         lblResult3.setText("\n-Is Palindrome? " + result);
         
         if(result){
