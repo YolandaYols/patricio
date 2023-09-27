@@ -40,7 +40,7 @@ public class Palindrome extends NewJFrame {
         /**
          * Ejemplo user: Amo la pacífica paloma
          *
-         * a m o l a p a c i f i c a p a l o m a
+         * a m o l a p a c i f i  c  a  p  a  l  o  m  a
          * 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
          */
         char[] arrayChar = phrase.toCharArray();
@@ -49,6 +49,7 @@ public class Palindrome extends NewJFrame {
             reverce = reverce + arrayChar[i];
         }
         return phrase.equals(reverce);
+        
 
     }
 
